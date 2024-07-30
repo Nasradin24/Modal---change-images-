@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+        <div class="popup" id="popup">
+            <h2>Modal title</h2>
+            <div class="images" id="imageContainer">
+                <button onclick="prevImage()">Prev</button>
+                <img src="Images/watch-oclock.jpg" alt="watch-oclock" class="active">
+                <img src="Images/boot-shoes.jpg" alt="boot-shoes">
+                <img src="Images/Coca-cola.jpg" alt="Coca-cola">
+                <img src="Images/Laptop-imac.jpg" alt="Laptop-imac">
+                <img src="Images/X-black-bg-color.jpg" alt="X-black-bg-color">
+                <img src="Images/T-letter-red-color.jpg" alt="T-letter-red-color">
+                <button onclick="nextImage()">Next</button>
+            </div>
+            <h4>Threads</h4>
+            <button type="button" onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
